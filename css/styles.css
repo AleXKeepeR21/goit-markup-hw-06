@@ -676,6 +676,18 @@ img {
 	fill: currentColor;
 }
 
+.footer-subscribe {
+	margin-left: 93px;
+}
+.footer-subscribe-title {
+	font-weight: 700;
+	line-height: 1.14;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color: var(--white-txt-color);
+	margin-bottom: 20px;
+}
+
 /* Модальне вікно */
 
 .backdrop {
@@ -723,4 +735,35 @@ img {
 	border: 1px solid rgba(0, 0, 0, 0.1);
 	background-color: var(--white-bg-color-card);
 	cursor: pointer;
+}
+
+.sign-up-forms {
+	padding: 40px;
+	display: flex;
+	flex-direction: column;
+}
+
+
+
+.sign-up-form-field {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 10px;
+}
+.sign-up-form-field label input {
+	display: block;
+	width: 100%;
+	height: 40px;
+	margin: 0;
+	padding: 0;
+} 
+
+.sign-up-form-field textarea {
+	width: 448px;
+	height: 120px;
+	resize: none;
+}
+.sign-up-form-checkbox {
+	margin-top: 20px;
+	margin-bottom: 30px;
 }
