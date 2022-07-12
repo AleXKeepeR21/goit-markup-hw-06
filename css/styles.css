@@ -802,10 +802,10 @@ img {
 	fill: var(--accent-txt-color);
 }
 
-.sign-up-forms {
+/* .sign-up-forms {
 	display: flex;
 	flex-direction: column;
-}
+} */
 .sign-up-forms strong {
 	font-size: 20px;
 	line-height: 1.15;
@@ -863,6 +863,8 @@ img {
 	color: rgba(117, 117, 117, 0.5);
 }
 
+.sign-up-form-field input:hover,
+.sign-up-form-field textarea:hover,
 .sign-up-form-field input:focus,
 .sign-up-form-field textarea:focus {
 	border: 1px solid var(--accent-bg-color);
@@ -872,6 +874,7 @@ img {
 .sign-up-form-field input + svg {
 	transition: fill var(--anim);
 }
+.sign-up-form-field input:hover + svg,
 .sign-up-form-field input:focus + svg {
 	fill: var(--accent-txt-color);
 }
@@ -919,7 +922,7 @@ img {
 }
 
 .modal-submit-btn {
-	display: inline-block;
+	display: block;
 	padding: 10px 55px;
 	margin-left: auto;
 	margin-right: auto;
